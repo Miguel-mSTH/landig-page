@@ -720,6 +720,7 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
@@ -1430,7 +1431,7 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 41.666666667%;
   }
 
   .col-lg-5 {
@@ -10296,7 +10297,7 @@ fieldset:disabled .btn {
   }
 
   .text-lg-end {
-    text-align: right !important;
+    /* text-align: right !important; */
   }
 
   .text-lg-center {
